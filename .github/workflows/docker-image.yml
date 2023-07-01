@@ -5,7 +5,7 @@ on:
     branches:
       - "main"
     paths:
-      - "images/mkdocs"
+      - "images/mkdocs/**"
 
 jobs:
   build_mkdocs_image:

@@ -76,19 +76,26 @@ nav:
           - ElasticSearch: Database/NoSQL/elasticsearch.md
   - モニタリング:
       - データ収集:
-            - Prometheus: Monitoring/DataCollection/prometheus.md
+          - Prometheus: Monitoring/DataCollection/prometheus.md
       - 自動通知:
-            - AlertManager: Monitoring/Notification/alertmanager.md
+          - AlertManager: Monitoring/Notification/alertmanager.md
       - 可視化:
-            - Grafana: Monitoring/Visualization/grafana.md
+          - Grafana: Monitoring/Visualization/grafana.md
 
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
+  - codehilite:
+      noclasses: true
+      pygments_style: colorful
+      linenums: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - pymdownx.details
   - mdx_truly_sane_lists:
       nested_indent: 2
+  - admonition
+
