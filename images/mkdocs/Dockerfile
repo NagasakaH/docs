@@ -1,2 +1,3 @@
 FROM python:3.11.4-slim
-RUN pip install --no-cache-dir mkdocs
+ADD requirements.txt /tmp/
+RUN pip install --no-cache-dir -r /tmp/requirements.txt
