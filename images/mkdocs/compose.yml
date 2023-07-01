@@ -1,0 +1,6 @@
+services:
+  mkdocs:
+    image: nagasakah/mkdocs:latest
+    build:
+      context: .
+      dockerfile: Dockerfile

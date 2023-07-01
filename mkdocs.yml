@@ -1,0 +1,6 @@
+site_name: Nagasaka Docs
+site_url: https://example.com/
+repo_url: https://github.com/NagasakaH/docs
+nav:
+    - Home: index.md
+theme: readthedocs
