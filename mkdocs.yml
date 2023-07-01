@@ -15,7 +15,7 @@ nav:
       - C/C++: Programming/c.md
       - C#: Programming/csharp.md
       - Java: Programming/java.md
-      - Kotlin: Programming/kotlin.d
+      - Kotlin: Programming/kotlin.md
       - ObjectiveC: Programming/objectivec.md
       - Swift: Programming/swift.md
       - Python: Programming/python.md
@@ -39,8 +39,8 @@ nav:
           - Docker: Container/Development/docker.md
           - Kubernetes: Container/Development/k8s.md
       - Docker:
-          - CLI: Cotainer/Docker/cli.md
-          - Dockerfile: Container/Docker/dockerfile.md
+          - CLI: Container/Docker/cli.md
+          - Dockerfile: Container/Docker/dockerf.md
           - compose: Container/Docker/compose.md
       - Kubernetes:
           - minikube: Container/Kubernetes/minikube.md
