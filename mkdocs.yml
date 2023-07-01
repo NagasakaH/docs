@@ -19,7 +19,7 @@ nav:
       - ObjectiveC: Programming/objectivec.md
       - Swift: Programming/swift.md
       - Python: Programming/python.md
-      - TypeScript: Programming/typeScript.md
+      - TypeScript: Programming/typescript.md
       - ShellScript: Programming/shellscript.md
   - 開発環境:
       - VSCode: IDE/vscode.md
