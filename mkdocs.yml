@@ -11,28 +11,28 @@ extra:
     language: "jp"
 nav:
   - Home: index.md
-  - プログラミング言語:
-      - C/C++: Programming/c.md
-      - C#: Programming/csharp.md
-      - Java: Programming/java.md
-      - Kotlin: Programming/kotlin.md
-      - ObjectiveC: Programming/objectivec.md
-      - Swift: Programming/swift.md
-      - Python: Programming/python.md
-      - TypeScript: Programming/typescript.md
-      - ShellScript: Programming/shellscript.md
-  - 開発環境:
-      - VSCode: IDE/vscode.md
-      - Vim: IDE/vim.md
-      - VisualStudio: IDE/visualstudio.md
-      - AndroidStudio: IDE/androidstudio.md
-      - XCode: IDE/xcode.md
-  - サーバー管理:
-      - Linuxコマンドメモ: Linux/cmd.md
-  - 自動化:
-      - GitLabCI: Automation/gitlabci.md
-      - GitHubActions: Automation/githubactions.md
-      - Jenkins: Automation/jenkins.md
+  # - プログラミング言語:
+  #     - C/C++: Programming/c.md
+  #     - C#: Programming/csharp.md
+  #     - Java: Programming/java.md
+  #     - Kotlin: Programming/kotlin.md
+  #     - ObjectiveC: Programming/objectivec.md
+  #     - Swift: Programming/swift.md
+  #     - Python: Programming/python.md
+  #     - TypeScript: Programming/typescript.md
+  #     - ShellScript: Programming/shellscript.md
+  # - 開発環境:
+  #     - VSCode: IDE/vscode.md
+  #     - Vim: IDE/vim.md
+  #     - VisualStudio: IDE/visualstudio.md
+  #     - AndroidStudio: IDE/androidstudio.md
+  #     - XCode: IDE/xcode.md
+  # - サーバー管理:
+  #     - Linuxコマンドメモ: Linux/cmd.md
+  # - 自動化:
+  #     - GitLabCI: Automation/gitlabci.md
+  #     - GitHubActions: Automation/githubactions.md
+  #     - Jenkins: Automation/jenkins.md
   - コンテナ:
       - 環境構築:
           - WSL2: Container/Development/wsl2.md
@@ -46,14 +46,15 @@ nav:
           - minikube: Container/Kubernetes/minikube.md
           - kubectl: Container/Kubernetes/kubectl.md
           - Kompose: Container/Kubernetes/kompose.md
+          - 小ネタ集: Container/Kubernetes/tips.md
   - Web関連:
       - フロントエンド:
           - React:
               - 環境構築: Web/Frontend/React/development.md
-          - NextJS:
-              - 環境構築: Web/Frontend/NextJS/development.md
-          - Angular:
-              - 環境構築: Web/Frontend/Angular/development.md
+          # - NextJS:
+          #     - 環境構築: Web/Frontend/NextJS/development.md
+          # - Angular:
+          #     - 環境構築: Web/Frontend/Angular/development.md
       - バックエンド:
           - Python:
               - FastAPI:
@@ -63,24 +64,24 @@ nav:
                   - 環境構築: Web/Backend/TypeScript/NestJS/development.md
               - Express:
                   - 環境構築: Web/Backend/TypeScript/Express/development.md
-          - Java:
-              - SpringBoot:
-                  - 環境構築: Web/Backend/Java/SpringBoot/development.md
+          # - Java:
+          #     - SpringBoot:
+          #         - 環境構築: Web/Backend/Java/SpringBoot/development.md
 
-  - データベース:
-      - RDB:
-          - PostgreSQL: Database/RDB/postgresql.md
-          - MySQL: Database/RDB/mysql.md
-      - NoSQL:
-          - MongoDB: Database/NoSQL/mongodb.md
-          - ElasticSearch: Database/NoSQL/elasticsearch.md
-  - モニタリング:
-      - データ収集:
-          - Prometheus: Monitoring/DataCollection/prometheus.md
-      - 自動通知:
-          - AlertManager: Monitoring/Notification/alertmanager.md
-      - 可視化:
-          - Grafana: Monitoring/Visualization/grafana.md
+  #- データベース:
+  #    - RDB:
+  #        - PostgreSQL: Database/RDB/postgresql.md
+  #        - MySQL: Database/RDB/mysql.md
+  #    - NoSQL:
+  #        - MongoDB: Database/NoSQL/mongodb.md
+  #        - ElasticSearch: Database/NoSQL/elasticsearch.md
+  #- モニタリング:
+  #    - データ収集:
+  #        - Prometheus: Monitoring/DataCollection/prometheus.md
+  #    - 自動通知:
+  #        - AlertManager: Monitoring/Notification/alertmanager.md
+  #    - 可視化:
+  #        - Grafana: Monitoring/Visualization/grafana.md
 
 markdown_extensions:
   - pymdownx.highlight:

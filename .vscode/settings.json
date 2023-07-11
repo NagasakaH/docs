@@ -1,3 +1,7 @@
 {
   "editor.renderWhitespace": "all",
+  "editor.formatOnSave": true,
+  "[markdown]": {
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+  }
 }
